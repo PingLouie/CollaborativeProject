@@ -1,0 +1,121 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	background-color: #669900;
+	margin-top: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul.left-side {
+	float: left;
+	height: 15px;
+	margin-top: -5px;
+}
+
+ul.right-side {
+	float: right;
+	height: 15px;
+	margin-top: -5px;
+}
+
+ul li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 19px;
+	font-family: Georgia;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none; 
+}
+
+ul li a:visited {
+	color: white;
+}	
+
+ul li a:hover {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+li.green {
+	line-height: 35px;
+	background-color: #223300;
+	width: 80px;
+	padding: 5px;
+	margin: -22px 0px -22px -10px;
+	font-family: Georgia;
+	font-size: 20px;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	color: #223300;
+	font-family: Georgia;
+	text-align: center;
+	background-color: white;
+	line-height: 66px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	color: white;
+	font-family: "Comic Sans MS";
+	text-align: center;
+	background-color: #223300;
+	line-height: 34px;
+	margin-top: 0px;
+}
+
+h2 {
+	font-family: "Comic Sans MS";
+	text-align: center;
+	margin-top: -20px;
+}
+
+.main-content {
+	padding-top: 200px;
+}
+
+.sub-content1 {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+
+#paired {
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+}
+
+.sub-content2 {
+	display: block;
+	width: 98%;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+.video {
+	width: 640px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+p {
+	text-align: justify;
+}

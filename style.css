@@ -8,6 +8,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgba(63, 191, 63, 0.5);
+    width: 100%;
 }
 
 li {
@@ -61,5 +62,17 @@ li.nav-right {
 	float: right;
 }
 
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(63, 191, 63, 0.6);
+    color: white;
 
+}
+
+h1,h3 {
+    text-align: center;
+}
 

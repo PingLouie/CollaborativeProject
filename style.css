@@ -2,6 +2,8 @@ body {
 	font-family: "Arial", "Helvetica", sans-serif;
 }
 
+/* Beginning of Navigation Section */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -67,8 +69,9 @@ nav {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgba(63, 191, 63, 0.6);
+    background-color: rgb(63, 191, 63);
     color: white;
+    display: block;
 
 }
 
@@ -76,3 +79,64 @@ h1,h3 {
     text-align: center;
 }
 
+/* End of Navigation Section */
+
+/* Beginning of Shop Gallery */
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 10px;
+    margin: 0px;
+    width: 25%;
+    display: inline-block;
+}
+
+/*  MOBILE RESPONSIVE TURNED OFF
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+*/
+
+/*.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+.shopGallery {
+    margin: 170px;
+    text-align: center;
+}
+
+/* End of Shop Gallery */

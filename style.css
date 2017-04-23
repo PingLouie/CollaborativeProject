@@ -150,11 +150,74 @@ h2 {
 #paired {
 	display: inline-block;
 	float: left;
-	margin-right: 25px;
+	margin-right: 40px;
 }
 
 p {
 	text-align: justify;
+	line-height: 20px;
+}
+
+.image1 { 
+   /*position: relative; */
+   	width: 675px; 
+   	height: 507px;
+   	margin: -20px 400px 40px;
+   	border-top: 5px solid grey;
+	border-right: 5px solid grey;
+  	border-bottom: 5px solid grey;
+}
+
+h4 { 
+   	position: absolute; 
+   	bottom: 50px; 
+   	left: 5px; 
+   	width: 100%; 
+}
+
+h4 span {
+	color: white;
+	font: bold 22px/48px Comic Sans MS; 
+   	letter-spacing: -1px;  
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.6);
+   	padding: 10px; 
+}
+
+h4 span.spacer {
+   	padding: 0 2px;
+}
+
+
+.image2 { 
+	position: relative; 
+   	width: 1079px; 
+   	height: 573px;
+   	margin: 0px 0px 40px 10px;
+   	border-top: 5px solid grey;
+	border-right: 5px solid grey;
+  	border-bottom: 5px solid grey;
+}
+
+h5 { 
+   position: absolute; 
+   top: 10px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h5 span {
+	text-align: center;
+	color: #223300;
+	font: bold 22px/48px Comic Sans MS; 
+   	letter-spacing: -1px;  
+   	background: rgb(204, 204, 204);
+   	background: rgba(204, 204, 204, 0.4);
+   	padding: 7px; 
+}
+
+h5 span.spacer {
+   padding: 0 5px;
 }
 
 .video {
@@ -162,6 +225,10 @@ p {
 	margin: 0 auto;
 	padding-top: 50px;
 	padding-bottom: 40px;
+}
+
+.sub-content {
+	padding-bottom: 70px;
 }
 
 .sub-content1 {
@@ -186,4 +253,14 @@ p {
 	margin-bottom: 50px
 }
 
+.sub-content4, .sub-content5 {
+	width: 1080px;
+	padding: 0px 0px 0px 5px;
+	border-top: 5px solid #669900;
+}
 
+.sub-content5 {
+	border-top: none;
+	border-bottom: 5px solid #669900;
+	margin-bottom: 50px;
+}

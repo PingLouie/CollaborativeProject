@@ -1,8 +1,9 @@
 /* Beginning of new nav */
 
 html, body {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
+    ;
 }
 
 nav {
@@ -141,31 +142,33 @@ h2 {
 /* change padding of your content to 200px */
 
 #team {
-    padding: 200px;
-    /*margin: 15px;*/
+    padding: 175px;
+    width: auto;
+}
+
+
+
+.team-member {
+    border-bottom:  5px solid darkgray ;
     
 }
 
-.member1, .member2, .member3{
-    display: inline-block;
-    /*float: left;*/
-}
+
 
 .column1, .column2 {
-    display: inline-block;
     float:left;
+    width: 40%; 
     padding: 10px;
-    margin: 10px; 
-
 }
 
 
 img {
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 15%;
-    
+
 }
 p {
     float: left;
+    text-align: center;
 }
